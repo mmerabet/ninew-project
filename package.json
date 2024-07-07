@@ -1,0 +1,27 @@
+{
+  "name": "ninew-project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss css/tailwind.css -o css/tailwind.output.css && sass css/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmerabet/ninew-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmerabet/ninew-project/issues"
+  },
+  "homepage": "https://github.com/mmerabet/ninew-project#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.77.6",
+    "tailwindcss": "^3.4.4"
+  }
+}

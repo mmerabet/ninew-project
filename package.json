@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss css/tailwind.css -o css/tailwind.output.css && sass css/styles.scss css/styles.css"
+    "build:css": "postcss src/css/tailwind.css -o src/css/tailwind.output.css",
+    "build:sass": "sass --watch src/sass/styles.scss:src/css/styles.css",
+    "build": "npm run build:css && npm run build:sass",
+    "start": "live-server public"
   },
   "repository": {
     "type": "git",
@@ -19,9 +22,12 @@
   "homepage": "https://github.com/mmerabet/ninew-project#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.39",
+    "postcss": "^8.4.40",
     "postcss-cli": "^11.0.0",
     "sass": "^1.77.6",
-    "tailwindcss": "^3.4.4"
+    "tailwindcss": "^3.4.7"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }

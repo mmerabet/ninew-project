@@ -18,5 +18,26 @@
   opacity: 0px;
 }
 
+.arrow-button {
+  background-image: url('/src/assets/icons/arrow.png');
+  transition: background-image 0.3s ease-in-out;
+  background-size: contain;
+  width: 67px;
+  height: 67px;
+  top: 67px;
+  gap: 0px;
+  opacity: 0px;
+}
+.arrow-button:hover {
+  background-image: url('/src/assets/icons/arrow-hover.png');
+  background-size: contain;
+  width: 67px;
+  height: 67px;
+  top: 67px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+
 
 

@@ -187,4 +187,24 @@ body {
   height: 40px;
 }
 
+.home-button {
+  background-image: url("/src/assets/icons/home-button.png");
+  width: 74px;
+  height: 72px;
+  top: 182px;
+  left: 1033px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.up-button {
+  background-image: url("/src/assets/icons/button-up.png");
+  width: 74px;
+  height: 72px;
+  top: 99px;
+  left: 1033px;
+  gap: 0px;
+  opacity: 0px;
+}
+
 /*# sourceMappingURL=styles.css.map */

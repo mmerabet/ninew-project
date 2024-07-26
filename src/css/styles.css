@@ -207,4 +207,94 @@ body {
   opacity: 0px;
 }
 
+.forward {
+  color: #D7AD4A;
+  width: 6px;
+  height: 4px;
+}
+
+nav {
+  background-color: #1C1C1C;
+  height: 81px;
+}
+
+.menu-bar-0 {
+  width: 253px;
+  height: 81px;
+}
+
+.menu-bar-1 {
+  width: 129px;
+  height: 81px;
+}
+
+.menu-bar-1:hover {
+  background-color: #D7AD4A;
+  color: #000000;
+  transition: 0.3s ease-in-out;
+  width: 129px;
+  height: 81px;
+}
+
+.menu-bar-2 {
+  width: 129px;
+  height: 81px;
+}
+
+.menu-bar-2:hover {
+  background-color: #D7AD4A;
+  color: #000000;
+  transition: 0.3s ease-in-out;
+  width: 129px;
+  height: 81px;
+}
+
+.menu-bar-3 {
+  width: 129px;
+  height: 81px;
+}
+
+.menu-bar-3:hover {
+  background-color: #D7AD4A;
+  color: #000000;
+  transition: 0.3s ease-in-out;
+  width: 129px;
+  height: 81px;
+}
+
+.menu-bar-4 {
+  width: 129px;
+  height: 81px;
+}
+
+.menu-bar-4:hover {
+  background-color: #D7AD4A;
+  color: #000000;
+  transition: 0.3s ease-in-out;
+  width: 129px;
+  height: 81px;
+}
+
+.menu-bar-5 {
+  width: 129px;
+  height: 81px;
+}
+
+.menu-bar-5:hover {
+  background-color: #D7AD4A;
+  color: #000000;
+  transition: 0.3s ease-in-out;
+  width: 129px;
+  height: 81px;
+}
+
+.chevron-down {
+  width: 6px;
+  height: 4px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: red;
+}
+
 /*# sourceMappingURL=styles.css.map */

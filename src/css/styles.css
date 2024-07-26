@@ -115,9 +115,6 @@ body {
   background-size: contain;
   width: 67px;
   height: 67px;
-  top: 67px;
-  gap: 0px;
-  opacity: 0px;
 }
 
 .forward-arrow-button:hover {
@@ -125,30 +122,69 @@ body {
   background-size: contain;
   width: 67px;
   height: 67px;
-  top: 67px;
-  gap: 0px;
-  opacity: 0px;
 }
 
-.arrow-button {
+.arrow-up-button {
   background-image: url("/src/assets/icons/arrow.png");
   transition: background-image 0.3s ease-in-out;
   background-size: contain;
   width: 67px;
   height: 67px;
-  top: 67px;
-  gap: 0px;
-  opacity: 0px;
 }
 
-.arrow-button:hover {
+.arrow-up-button:hover {
   background-image: url("/src/assets/icons/arrow-hover.png");
   background-size: contain;
   width: 67px;
   height: 67px;
-  top: 67px;
-  gap: 0px;
-  opacity: 0px;
+}
+
+.arrow-down-button {
+  background-image: url("/src/assets/icons/arrow.png");
+  transition: background-image 0.3s ease-in-out;
+  transform: rotate(180deg);
+  background-size: contain;
+  width: 67px;
+  height: 67px;
+}
+
+.arrow-down-button:hover {
+  background-image: url("/src/assets/icons/arrow-hover.png");
+  background-size: contain;
+  width: 67px;
+  height: 67px;
+}
+
+.arrow-left-button {
+  background-image: url("/src/assets/icons/arrow.png");
+  transition: background-image 0.3s ease-in-out;
+  transform: rotate(-90deg);
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+}
+
+.arrow-left-button:hover {
+  background-image: url("/src/assets/icons/arrow-hover.png");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+}
+
+.arrow-right-button {
+  background-image: url("/src/assets/icons/arrow.png");
+  transition: background-image 0.3s ease-in-out;
+  transform: rotate(90deg);
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+}
+
+.arrow-right-button:hover {
+  background-image: url("/src/assets/icons/arrow-hover.png");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */

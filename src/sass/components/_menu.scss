@@ -3,6 +3,11 @@ nav {
   height: 81px;
 }
 
+.chevron-down {
+  width: 15px;
+  height: 15px;
+}
+
 .menu-bar-0 {
   width: 253px;
   height: 81px;
@@ -71,13 +76,4 @@ nav {
   transition: 0.3s ease-in-out;
   width: 129px;
   height: 81px;
-}
-
-.chevron-down {width: 6px;
-  height: 4px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  
-color: red;
 }

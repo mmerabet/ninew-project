@@ -5,7 +5,11 @@ module.exports = {
     './src/**/*.js',      // Scan JS files in the src directory
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary-3': '#D7AD4A',
+      },
+    },
   },
   plugins: [],
 }

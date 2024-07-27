@@ -22,15 +22,17 @@
           </a>
         </li>
         <li>
-          <div class="menu-bar-2 cursor-pointer flex justify-evenly items-center">
-            <span>ศึกษาธรรม</span>
-            <img class="chevron-down" src="/src/assets/svg/chevron-down.svg" alt="">
+          <div id="dropdown-menu-bar-2-button">
+            <div id="test" class="menu-bar-2 select-none flex justify-evenly items-center">
+              <span>ศึกษาธรรม</span>
+              <img class="chevron-down" src="/src/assets/svg/chevron-down.svg" alt="">
+            </div>
+            <div id="dropdown-menu-bar-2" class="menu-bar-2-dropdown thai-sarabun-body flex flex-col hidden">
+              <a class="cursor-pointer hover:bg-gray-300 p-3 flex items-center" href="">หลักธรรม</a>
+              <a class="cursor-pointer hover:bg-gray-300 p-3 flex items-center" href="">หลักปฏิบัติ</a>
+              <a class="cursor-pointer hover:bg-gray-300 p-3 flex items-center" href="">คติธรรม</a>
+            </div>
           </div>
-          <!-- <div>
-            <a href="">หลักธรรม</a>
-            <a href="">หลักปฏิบัติ</a>
-            <a href="">คติธรรม</a>
-          </div> -->
         </li>
         <li>
           <a href="">
@@ -96,7 +98,7 @@
 
 
 
-
+  <script src="/src/js/main.js"></script>
 </body>
 
 </html>

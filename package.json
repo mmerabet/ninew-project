@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss src/css/tailwind.css -o src/css/tailwind.output.css",
+    "build:css": "postcss --watch src/css/tailwind.css -o src/css/tailwind.output.css",
     "build:sass": "sass --watch src/sass/styles.scss:src/css/styles.css",
     "build": "npm run build:css && npm run build:sass",
     "start": "live-server public"

@@ -1,10 +1,30 @@
-$primary-color: #3498db;
+.lotus-title-background-image {
+  background-image: url('/src/assets/images/index/index-title-background.png');
+}
 
-.test-sass {
-  background-color: $primary-color;
-  padding: 1rem;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.lotus-background-image {
+  background-image: url('/src/assets/images/index/lotus.png');
+}
+
+.mountain-background-image {
+  background-image: url('/src/assets/images/index/mountain.png');
+}
+
+.moon-background-image {
+  background-image: url('/src/assets/images/index/moon.png');
+}
+
+.mountain2-background-image {
+  background-image: url('/src/assets/images/index/mountain2.png');
+}
+
+.picture-shadow {
+  box-shadow: 0px 0px 23px 8px #000000;
+}
+
+.card-shadow {
+  box-shadow: inset 0px 5px 7.5px -5px rgba(0, 0, 0, 0.5),
+    /* Top shadow */
+    inset -5px 0px 7.5px -5px rgba(0, 0, 0, 0.5);
+  /* Right shadow */
 }

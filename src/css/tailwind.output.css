@@ -519,6 +519,27 @@ video {
 .top-\[735px\] {
   top: 735px;
 }
+.left-\[158px\] {
+  left: 158px;
+}
+.left-\[10px\] {
+  left: 10px;
+}
+.top-\[10px\] {
+  top: 10px;
+}
+.left-\[-10px\] {
+  left: -10px;
+}
+.top-\[-10px\] {
+  top: -10px;
+}
+.left-\[-0px\] {
+  left: -0px;
+}
+.top-\[-0px\] {
+  top: -0px;
+}
 .z-0 {
   z-index: 0;
 }
@@ -563,6 +584,9 @@ video {
 }
 .mt-\[80px\] {
   margin-top: 80px;
+}
+.ml-\[20px\] {
+  margin-left: 20px;
 }
 .block {
   display: block;
@@ -621,6 +645,18 @@ video {
 .h-\[436px\] {
   height: 436px;
 }
+.h-\[456px\] {
+  height: 456px;
+}
+.h-\[659px\] {
+  height: 659px;
+}
+.h-\[356px\] {
+  height: 356px;
+}
+.h-\[379px\] {
+  height: 379px;
+}
 .w-\[131px\] {
   width: 131px;
 }
@@ -650,6 +686,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-\[746px\] {
+  width: 746px;
 }
 .rotate-\[270deg\] {
   --tw-rotate: 270deg;
@@ -681,6 +720,9 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.justify-around {
+  justify-content: space-around;
+}
 .justify-evenly {
   justify-content: space-evenly;
 }
@@ -689,6 +731,9 @@ video {
 }
 .gap-5 {
   gap: 1.25rem;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -727,11 +772,17 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
 .bg-cover {
   background-size: cover;
 }
 .bg-center {
   background-position: center;
+}
+.bg-right {
+  background-position: right;
 }
 .bg-no-repeat {
   background-repeat: no-repeat;
@@ -739,6 +790,10 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.object-none {
+  -o-object-fit: none;
+     object-fit: none;
 }
 .object-bottom {
   -o-object-position: bottom;
@@ -768,6 +823,18 @@ video {
 }
 .pt-\[90px\] {
   padding-top: 90px;
+}
+.pl-\[20px\] {
+  padding-left: 20px;
+}
+.pl-\[40px\] {
+  padding-left: 40px;
+}
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+.pt-\[50px\] {
+  padding-top: 50px;
 }
 .text-3xl {
   font-size: 1.875rem;

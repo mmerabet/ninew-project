@@ -558,6 +558,14 @@ video {
   margin-left: 8%;
   margin-right: 8%;
 }
+.my-\[98px\] {
+  margin-top: 98px;
+  margin-bottom: 98px;
+}
+.my-\[80px\] {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -587,6 +595,9 @@ video {
 }
 .ml-\[20px\] {
   margin-left: 20px;
+}
+.mt-\[10px\] {
+  margin-top: 10px;
 }
 .block {
   display: block;
@@ -657,6 +668,12 @@ video {
 .h-\[379px\] {
   height: 379px;
 }
+.h-\[643px\] {
+  height: 643px;
+}
+.h-\[590px\] {
+  height: 590px;
+}
 .w-\[131px\] {
   width: 131px;
 }
@@ -704,6 +721,9 @@ video {
 }
 .list-disc {
   list-style-type: disc;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 .flex-col {
   flex-direction: column;
@@ -775,6 +795,12 @@ video {
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
 }
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
 .bg-cover {
   background-size: cover;
 }
@@ -783,6 +809,9 @@ video {
 }
 .bg-right {
   background-position: right;
+}
+.bg-bottom {
+  background-position: bottom;
 }
 .bg-no-repeat {
   background-repeat: no-repeat;
@@ -808,6 +837,18 @@ video {
 .py-\[100px\] {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.py-\[98px\] {
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.py-\[90px\] {
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 .pl-\[156px\] {
   padding-left: 156px;
